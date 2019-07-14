@@ -20,7 +20,7 @@ function generateBlogTitle() {
   for (var i=0; i < 50; i++) {
     var node=document.createElement("div");
     node.className='text';
-    node.innerHTML='静默虚空';
+    node.innerHTML='最后的完美';
     root.appendChild(node);
   }
   document.getElementById("blogTitle").appendChild(root);
